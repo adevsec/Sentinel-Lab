@@ -9,9 +9,21 @@
 </b>
 <br />
 <br />
-The script is used in this demo where I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot.
-We will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to
-look up the attackers Geolocation information and plot it on an Azure Sentinel Map!
+- <b>PowerShell:</b> Extract RDP failed logon logs from Windows Event Viewe
+<h2>Key Characteristics</h2>
+- <b>PowerShell:</b> Extract RDP failed logon logs from Windows Event Viewer
+- Vulnerability ID: MS17–010
+- CVE Identifiers:
+- CVE-2017–0144: Related to remote code execution through the SMBv1 protocol.
+- CVE-2017–0145: Related vulnerability affecting the SMB protocol.
+- CVE-2017–0146: Another associated vulnerability.
+- Affected Systems: Windows 7, Windows Server 2008, and earlier versions with SMB v1 enabled.
+- Impact: Remote Code Execution, allowing attackers to gain full control of the system.
+<h2>Utilities Used</h2>
+
+
+
+
 <br />
 <br />
 
